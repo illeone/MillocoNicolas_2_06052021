@@ -32,8 +32,8 @@
                
                 <div id="recherche">
                     <div id="description">
-                        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-                        <p>En plein centre ville ou en pleine nature</p>
+                        <h1 id="h1">Trouvez votre hébergement pour des vacances de rêves</h1>
+                        <p id="soustitre">En plein centre ville ou en pleine nature</p>
                     </div>
                     <div id="outil_recherche">
                         <div id = "logoPosition">
@@ -122,7 +122,7 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
                                     
                                     </div>
                                 </a>
@@ -159,7 +159,7 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
                                     </div>
                                  </a>
                              </div>
@@ -176,8 +176,8 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
                                     </div>
                                 </a>
                             </div>
@@ -195,7 +195,7 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
                                     </div>
                                 </a>
                             </div>
@@ -220,7 +220,7 @@
                         </div>  
                         <div>
                             <a href="#">
-                                <h3>Afficher plus</h3>
+                                <h3 id="afficherplus">Afficher plus</h3>
                             </a>  
                         </div>  
                            
@@ -234,13 +234,11 @@
                     <div id="hebergementPopulaire">
                         <div class="chambrePop">
                             <a href="#">
-                                <div class="chambrePopImg">
-                                    <img 
+                                    <img
                                     class="hebergementPopulaireImg"
                                     src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                     alt="Chambre verte"
                                     >
-                                </div>
                                 <div class="chambrePopDesc">
                                     <h3 class="hebergementPopulaireTitre">Hôtel Le soleil du matin</h3>
                                     <p class="hebergementPopulaireDesc">Nuit à partir de <strong class="hebergementPopulaireDescPrix">128€</strong></p>
@@ -250,19 +248,18 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="chambrePop">
                             <a href="#">
-                                <div class="chambrePopImg">
                                     <img 
                                     class="hebergementPopulaireImg"
                                     src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                     alt="Chambre etage"
                                     >
-                                </div>
-                                <div class="ChambrePopDesc">
+                                <div class="chambrePopDesc">
                                     <h3 class="hebergementPopulaireTitre">Au coeur de l'eau Chambres d'hôtes</h3>
                                     <p class="hebergementPopulaireDesc">Nuit à partir de <strong class="hebergementPopulaireDescPrix">71€</strong></p>
                                     <div class="hebergementPopulaireNote">
@@ -270,21 +267,19 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise" class="fas fa-star"></i>
                                     </div> 
                                 </div>                  
                             </a>
                         </div>
                         <div class="chambrePop">
                             <a href="#">
-                                <div class="chambrePopImg">
                                     <img 
                                     class="hebergementPopulaireImg"
                                     src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                     alt="Lit double blanc"
                                     >
-                                </div>
-                                <div class="ChambrePopDesc">
+                                <div class="chambrePopDesc">
                                     <h3 class="hebergementPopulaireTitre">Hôtel Tout bleu et Blanc</h3>
                                     <p class="hebergementPopulaireDesc">Nuit à partir de <strong class="hebergementPopulaireDescPrix">68€</strong></p>
                                     <div class="hebergementPopulaireNote">
@@ -292,7 +287,7 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <i id="etoilegrise"class="fas fa-star"></i>
                                     </div> 
                                 </div>                  
                             </a>
@@ -302,67 +297,73 @@
             </section>            
 
             <section>
-                <article>
-                    <h1>Activités à Marseille</h1>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                             alt="vieux port"
-                             >
-                                <h3 class="activiteMarseilleVieuxPort">Vieux Port</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                             alt="fort pomegues"
-                             >
-                                <h3 class="activiteMarseilleFortPomegues">Fort de Pomègues</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                             alt="iles frioul"
-                             >
-                                <h3 class="activiteMarseilleIlesFrioul">Îles du Frioul</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                             alt="parc calanques"
-                             >
-                                <h3 class="activiteMarseilleParcCalanques">Parc National des Calanques</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                             alt="notre dame"
-                             >
-                                <h3 class="activiteMarseilleVieuxNotreDame">Notre-Dame-de-la-Garde</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <img 
-                             class="activiteMarseille"
-                             src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                             alt="longchamp"
-                             >
-                                <h3 class="activiteMarseilleVieuxPort">Parc Longchamp</h3>
-                        </a>
+                <article id="article2">
+                    <h2 id="activitetitre">Activités à Marseille</h2>
+                    <div id="activiteMarseille">
+                        <div class="activiteMarseilleBloc1">
+                            <a href="#">
+                                <img 
+                                class="activiteMarseilleImg1"
+                                src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="vieux port"
+                                >
+                                <h3 class="activiteMarseilleDesc">Vieux Port</h3>
+                            </a>
+                        </div>
+                        <div id="paire1">
+                            <div class="activiteMarseilleBloc2">
+                                <a href="#">
+                                    <img 
+                                    class="activiteMarseilleImg2"
+                                    src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                    alt="fort pomegues"
+                                    >
+                                    <h3 class="activiteMarseilleDesc">Fort de Pomègues</h3>
+                                 </a>
+                            </div>
+                            <div class="activiteMarseilleBloc3">
+                                 <a href="#">
+                                    <img 
+                                    class="activiteMarseilleImg3"
+                                    src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                    alt="iles frioul"
+                                    >
+                                    <h3 class="activiteMarseilleDesc">Îles du Frioul</h3>
+                                 </a>
+                            </div>
+                        </div>
+                        <div class="activiteMarseilleBloc4">
+                            <a href="#">
+                                <img 
+                                class="activiteMarseilleImg4"
+                                src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                alt="parc calanques"
+                                >
+                                <h3 class="activiteMarseilleDesc">Parc National des Calanques</h3>
+                            </a>
+                        </div>
+                        <div id="paire2">
+                            <div class="activiteMarseilleBloc5">
+                            <a href="#">
+                                    <img 
+                                    class="activiteMarseilleImg5"
+                                    src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                    alt="notre dame"
+                                    >
+                                    <h3 class="activiteMarseilleDesc">Notre-Dame-de-la-Garde</h3>
+                                </a>
+                            </div>
+                            <div class="activiteMarseilleBloc6">
+                                <a href="#">
+                                    <img 
+                                    class="activiteMarseilleImg6"
+                                    src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                    alt="longchamp"
+                                    >
+                                    <h3 class="activiteMarseilleDesc">Parc Longchamp</h3>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </article>
             </section>
@@ -372,31 +373,24 @@
                 <div class="a_propos">
                     <h3>A propos</h3>
                     <div class="liste">
-                        <ul>
-                            <li><a href ="#">Fonctionnement du site</a></li>
-                            <li><a href ="#">Conditions générales de vente</a></li>
-                            <li><a href ="#">Données et confidentialité</a></li>
-                        </ul>
+                        <a href ="#">Fonctionnement du site</a></br>
+                        <a href ="#">Conditions générales de vente</a></br>
+                        <a href ="#">Données et confidentialité</a>
                     </div>
                         
                 </div>
                 <div class="nos_hebergement">
                     <h3>Nos hébergements</h3>
                     <div class="liste">
-                        <ul>
-                            <li><a href ="#">Charte qualité</a></li>
-                            <li><a href ="#">Soumettre votre hôtel</a></li>
-                        </ul>
-                    </div>
-                    
+                        <a href ="#">Charte qualité</a></br>
+                        <a href ="#">Soumettre votre hôtel</a>
+                    </div>         
                 </div>               
                 <div class="assistance">
                     <h3>Assistance</h3>
                     <div class="liste">
-                        <ul>
-                            <li><a href ="#">Centre d'aide</a></li>
-                            <li><a href ="#">Nous contacter</a></li>
-                        </ul>
+                        <a href ="#">Centre d'aide</a></br>
+                        <a href ="#">Nous contacter</a>
                     </div>
                 </div>
             </footer>
