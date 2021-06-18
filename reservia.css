@@ -1,13 +1,29 @@
+#bloc_page
+{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #reservia
 {
     width: 100px;
     height: 50px;
     margin-top: 1.4rem;
+    margin-left: 4rem;
+}
+#h1
+{
+    font-size: 1.5rem;
+}
+#soustitre
+{
+    font-size: 1.1rem;
 }
 #entete
 {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 3rem;
+
 }
 nav
 {
@@ -16,7 +32,7 @@ nav
 nav :hover
 {
     color: #0065FC;
-    border: solid 2px;
+    border: solid 3px;
     border-bottom: hidden;
     border-left: hidden;
     border-right: hidden;
@@ -25,34 +41,53 @@ nav :hover
 
 #menu1
 {
-    margin-left: 48rem;
+    margin-left: 53rem;
     padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.3rem;
 }
 #menu2
 {
-    margin-left: 3rem;
+    margin-left: 2rem;
     padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.3rem;
 }
 #inscription
 {
     margin-right: 1rem;
     margin-top: 2.5rem;
+    margin-left: 3rem;
+    font-size: 1.3rem;
 }
 .bleu
 {
     color: #0065FC;
+}
+#h1
+{
+    margin-left: 4rem; 
+    line-height: 0.3rem;
+}
+#soustitre
+{
+    margin-left: 4rem; 
 }
 
 #outil_recherche
 {
     display: flex;
     height: 3rem; 
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
 }
 #logoPosition
 {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    height: 2.5rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    height: 3rem;
     width: 3rem;
     background-color: #F3F2F3;
     display: flex;
@@ -66,25 +101,25 @@ nav :hover
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    width: 9rem;
-    height: 2.4rem;
+    width: 11rem;
+    height: 2.9rem;
     display: flex;  
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
 }
 input[type=search]
 {
     border: 0;
+    font-size: 1.1rem;
     outline: none;
-    outline-offset: 0;
     background-color:transparent
 }
 
 a.button
 {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    height: 2.5rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    height: 3rem;
     width: 7rem;
     color: white;
     background-color: #0065FC;
@@ -97,62 +132,62 @@ a.button
 {
     display: flex;
     align-items: center;
+    margin-left: 4rem;
+    flex-wrap: wrap;
 }
 
 #filtre_1
 {
-    border: 2px #F3F2F3 solid;
+    border: 3px #F3F2F3 solid;
     height: 3rem;
-    border-radius: 2rem;
-    display: flex;
-    min-width: 15%;  
-    margin-left: 2rem; 
+    border-radius: 4rem;
+    display: flex; 
+    margin-left: 2rem;
+    font-size: 1.1rem;
 }
 
 #filtre_2
 {
-    border: 2px #F3F2F3 solid;
+    border: 3px #F3F2F3 solid;
     height: 3rem;
     border-radius: 2rem;
     display: flex;
-    min-width: 15%; 
-    margin-left: 1.5rem;  
+    margin-left: 1.6rem; 
+    font-size: 1.1rem; 
 }
 
 #filtre_3
 {
-    border: 2px #F3F2F3 solid;
+    border: 3px #F3F2F3 solid;
     height: 3rem;
     border-radius: 2rem;
-    display: flex;
-    min-width: 12%;  
-    margin-left: 1.5rem;    
+    display: flex; 
+    margin-left: 1.6rem; 
+    font-size: 1.1rem;   
 }
 
 #filtre_4
 {
-    border: 2px #F3F2F3 solid;
+    border: 3px #F3F2F3 solid;
     height: 3rem;
     border-radius: 2rem;
-    display: flex;
-    min-width: 12%; 
-    margin-left: 1.5rem;     
+    display: flex; 
+    margin-left: 1.6rem;   
+    font-size: 1.1rem;  
 }
-
-
 
 #filtre_recherche :hover, :focus
 {
     color: #0065FC;
     background-color: #DEECFF;
     transition: all 0.6s ease-out;  
-    border-radius: 9rem;
-    
+    border-radius: 9rem;   
 }
 
 #filtre_recherche
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     line-height: 10px
 }
@@ -173,16 +208,15 @@ a
 {
     color: #0065FC;
     border-radius: 2rem;
-    height: 3rem;
-    width: 3rem;
+    height: 3.3rem;
+    width: 3.3rem;
     background-color: #DEEBFF;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 #logoFiltreText1
-
 {
     margin-left: 0.8rem;
     margin-right: 1rem;
@@ -207,6 +241,10 @@ a
 {
     display: flex;
     align-items: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
 }
 #info
 {
@@ -223,104 +261,291 @@ a
 #section1
 {
     display: flex;
-    justify-content: space-between;
+    margin-left: 4rem;
 }
 #article1
 {
     border-radius: 1.2rem;
     background-color: #F3F2F3;
-    width: 54rem;
+    width: 65rem;
+    margin-right: 3rem;
+}
+.hebergementMarseille
+{
+    margin-left: 3.7rem;
+    margin-top: 3rem;
 }
 #hebergement
 {
     display: flex;
-    justify-content: space-around;
     align-items: space-between;
     flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
 }
 .chambre
 {
     background-color: white;
-    height: 16rem;
-    width: 16rem;
+    height: 12.5rem;
+    width: 15.3rem;
     border-radius: 1.5rem;
     box-shadow: 0px 0px 12px 0px #d2cccc;
-    margin-top: 2rem;
-
+    margin-top: 1.1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 .hebergementMarseilleImg
 {
-    margin-left: 0.25rem;
-    margin-top: 0.25rem;
-    width: 248px;
-    height: 150px;
+    margin-left: 0.29rem;
+    margin-right: 0.29rem;
+    margin-top: 0.30rem;
+    width: 14.7rem;
+    height: 7rem;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
 }
 .hostingMainCardFigureCaptionTitle
 {
-    margin-left: 1rem;
-    line-height: 0.7rem;
+    margin-left: 1.3rem;
+    line-height: 0.1rem;
 }
 .hebergementMarseilleDesc
 {
-    margin-left: 1rem;  
-    line-height: 0.3rem; 
+    margin-left: 1.3rem;  
+    line-height: 0.25rem; 
 }
 .hebergementMarseilleNote
 {
-    margin-left: 1rem; 
-    line-height: 0.2rem;
+    margin-left: 1.3rem; 
+    line-height: 0.8rem;
 }
-.fas
+.fa-star
 {
     color: #0065FC;
 }
-.far
+
+#etoilegrise
 {
-    color: #0065FC  
+    color: rgb(217, 217, 217);
+}
+#afficherplus
+{
+    margin-left: 3.7rem;
 }
 
 #aside
 {
     border-radius: 1.2rem;
-    background-color: #F3F2F3;
-    width: 24rem;
-    height: 48rem;
+    background-color: #F2F2F2;
+    width: 33rem;
+    height: 41rem;
+    margin-right: 2rem;
 }
 #asideTitre
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+
+}
+.fa-chart-line
+{
+    margin-left: 10rem;
+    font-size: 1.7rem;
 }
 #hebergementPopulaire
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 3.5rem;
-    margin-top: 0.35rem;
-  
 }
 .chambrePop
 {
     background-color: white;
-    height: 10rem;
-    width: 22rem;
+    height: 9rem;
+    width: 23rem;
     border-radius: 1.5rem;
     box-shadow: 0px 0px 12px 0px #d2cccc;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.5rem;
 }
 
 .hebergementPopulaireImg
 {
-    width: 150px;
-    height: 140px; 
+    width: 140px;
+    height: 132px; 
     float: left;
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    margin-left: 0.32rem;
+    margin-top: 0.32rem;
+}
+.chambrePopDesc
+{
+    margin-left: 10.5rem;
+}
+.hebergementPopulaireNote
+{
+line-height: 3rem;
+}
+
+#article2
+{
+    margin-top: 5rem;
+}
+#activiteMarseille
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+}
+#activitetitre
+{
+    margin-left: 4rem;
+}
+.activiteMarseilleBloc1
+{
+    display: flex;
+    background-color: white;
+    height: 36rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleBloc2
+{
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 1.1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleBloc3
+{
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleBloc4
+{
+    display: flex;
+    background-color: white;
+    height: 36rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 1.1rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleBloc5
+{
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 1.1rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleBloc6
+{
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 12px 0px #d2cccc;
+    margin-top: 3.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.activiteMarseilleImg1
+{
+    height: 32rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleImg2
+{
+    height: 15rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleImg3
+{
+    height: 10rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleImg4
+{
+    height: 32rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleImg5
+{
+    height: 10rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleImg6
+{
+    height: 15rem;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.activiteMarseilleDesc
+{
+    margin-left: 1.5rem;
 }
 
 #footer
 {
     background-color: #F3F2F3; 
+    display: flex;
+    align-content: flex-start;
+    margin-top: 5rem;
+    width: 96rem;
+    height: 14rem;
+}
+.a_propos
+{
+    margin-right: 18rem;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+.nos_hebergement
+{
+    margin-right: 20rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+.assistance
+{
+    margin-top: 1.5rem;
+    line-height: 2rem;
 }
